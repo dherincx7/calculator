@@ -1,0 +1,64 @@
+:root {
+font-size: 10px;
+}
+
+body {
+  	font-family: Sans-Serif;
+  	font-size: 1.8rem;
+  	margin: 0rem;
+	padding: 0rem;
+}
+
+#background {
+ 	height:41rem;
+ 	width:31.5rem;
+ 	padding: 1.5rem;
+ 	border-radius: .7rem;
+	background: linear-gradient(to bottom right, #D7D6D4,	#A4A4A4)
+}
+#display {
+ 	height: 6rem;
+ 	border-radius: .7rem;
+ 	border-style: inset;
+ 	background-color:#F0FBC8;
+ 	text-align: right;
+ 	padding: 1rem 4rem;
+ 	margin-bottom: 1.5rem; 
+ 	font-size: 1.1em;
+ 	box-shadow: -.2rem -.2rem .1rem #9A9A9A;
+}
+
+button {
+  	background-color:#D6D6D6;
+  	border-radius: .8rem;
+  	margin: .5rem 0rem;
+  	width: 7.4rem;
+  	height: 4rem;
+  	line-height: 2.6rem;
+  	padding: .5rem .6rem;
+  	text-align: center;
+  	display: inline-block;
+  	box-shadow: .35rem .35rem .1rem gray;
+ 	border-style: outset;
+  	transition-duration: 0.1s;
+}
+
+button:hover {
+	transform: translateY(.25px);
+  	background-color: #EEEE;
+}
+
+button:active {
+  	box-shadow: -.25rem -.25rem .1rem gray;
+}
+
+#button-0 {
+	width: 15.4rem;
+}
+
+#button-equal { 
+	float: right;
+	height: 9rem;
+	padding-top: 5rem;
+	margin-right: .45rem;
+}
